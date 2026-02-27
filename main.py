@@ -32,11 +32,11 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 THREATS = [
-    "knife",
-    "person fallen on ground",
-    "fire",
-    "gun",
-    "unattended bag",
+    "kitchen knife or blade weapon", 
+    "person fallen on ground", 
+    "fire or flames", 
+    "gun or pistol", 
+    "unattended bag or backpack"
 ]
 
 # ── FastAPI app ──────────────────────────────────────────────
@@ -158,8 +158,8 @@ Start by saying exactly: "SentinelAI online. Actively monitoring for threats."
         processors=[
             ThreatAlertProcessor(
                 detect_objects=THREATS,
-                conf_threshold=0.35,
-                fps=2,
+                conf_threshold=0.65,
+                fps=4,
             )
         ],
     )
