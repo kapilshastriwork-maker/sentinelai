@@ -152,7 +152,7 @@ CRITICAL RULES:
 4. Keep alerts short: under 8 words.
 5. If someone talks to you, respond briefly, then go back to monitoring.
 
-Start by saying exactly: "SentinelAI online. Actively monitoring for threats."
+Start by saying exactly: "SentinelAI online. I am your AI security guardian, monitoring this feed in real-time. Stay safe."
 """,
         llm=gemini.Realtime(fps=2),
         processors=[
