@@ -15,6 +15,12 @@ Built for the [Stream Vision Agents Hackathon](https://visionagents.ai) using Vi
 - Automatic voice alert: *"ALERT! Unattended bag detected!"*
 - Two-way Gemini voice conversation: *"What are you watching for?"*
 
+- ## 🎬 Demo Video
+
+[![SentinelAI Demo](https://img.youtube.com/vi/RX4EW9DvaFQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=RX4EW9DvaFQ)
+
+> Click the thumbnail to watch the live demo on YouTube
+
 ---
 
 ## ✨ Key Features
