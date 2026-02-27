@@ -1,0 +1,13 @@
+[project]
+name = "sentinelai"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "vision-agents[getstream,gemini,moondream]",
+    "python-dotenv",
+    "getstream",
+    "stream-chat",
+    "uvicorn",
+    "aiofiles",
+    "fastapi",
+]
