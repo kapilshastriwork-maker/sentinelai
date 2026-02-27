@@ -204,3 +204,8 @@ if __name__ == "__main__":
         _uvicorn.run(runner.fast_api, host="127.0.0.1", port=port, loop="asyncio")
     else:
         Runner(AgentLauncher(create_agent=create_agent, join_call=join_vision_call)).cli()
+
+# Serve React frontend
+frontend_build = os.path.join(os.path.dirname(__file__), "frontend", "dist")
+if os.path.exists(frontend_build):
+    app.mount("/", StaticFiles(directory=frontend_build, html=True), name="frontend")
